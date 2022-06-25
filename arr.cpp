@@ -18,7 +18,25 @@ void ReleaseArr(tArr* _pArr)
 
 void Reallocate(tArr* _pArr)
 {
+
+	int* pNew = (int*) malloc(_pArr->iMaxCount * 2 * sizeof(int));
+	for (int i = 0; i < _pArr->iCount; ++i)
+	{
+		pNew[i] = _pArr->pInt[i];
+
+	}
+
+	free(_pArr->pInt);
+
+	_pArr->pInt = pNew;
+
+	_pArr->iMaxCount *= 2;
 }
+
+
+
+
+
 
 void PushBack(tArr* _pArr, int _iData)
 {

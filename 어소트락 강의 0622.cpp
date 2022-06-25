@@ -7,14 +7,19 @@ using namespace std;
 
 int main()
 {
-	tArr s = {};
-	sizeof(s);
+	tArr s1 = {};
+
+	InitArr(&s1);
 
 	for (int i = 0; i < 10; ++i)
 	{
-		PushBack(&s, i);
+		PushBack(&s1, i);
 	}
-	
+
+
+	/*malloc(40);*/
+
+	return 0;
 
 
 

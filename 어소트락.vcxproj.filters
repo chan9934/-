@@ -33,6 +33,18 @@
     <ClCompile Include="arr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="가변배열 실습.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrArr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="어소트락 강의 0625.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -42,6 +54,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="arr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrArr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,12 +1,7 @@
 #include "ArrArr.h"
 #include <iostream>
 
-void Initialize(tArr* _pArr)
-{
-	_pArr->Iptr = (int*)malloc(sizeof(int) * 2);
-	_pArr->Count = 0;
-	_pArr->MaxCount = 0;
-}
+
 
 void Release(tArr* _pArr)
 {

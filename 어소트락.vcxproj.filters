@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ARray">
+      <UniqueIdentifier>{d15d8227-d402-4126-b821-6989c558bd49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="어소트락 강의 0619.cpp">
@@ -63,6 +66,21 @@
     <ClCompile Include="list_test1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="List_Test2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="어소트락 강의 0627.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="어소트락 강의 0628.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CArr.cpp">
+      <Filter>ARray</Filter>
+    </ClCompile>
+    <ClCompile Include="어소트락 강의 0629.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -88,6 +106,15 @@
     </ClInclude>
     <ClInclude Include="list_test1.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List_Test2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CArr.h">
+      <Filter>ARray</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -25,3 +25,5 @@ void PushBack(tLinkedList* _pList, int _iData);
 
 // 연결형 리스트 메모리 해제
 void ReleaseList(tLinkedList* _pList);
+
+void PushFront(tLinkedList* _pList, int _iData);

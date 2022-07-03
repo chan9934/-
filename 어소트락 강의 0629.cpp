@@ -14,7 +14,7 @@ int amin()
 
 	ReleaseARr(&Arr);*/
 
-	CArr carr;
+	CArr<int> carr;
 	carr.push_back(10);
 	carr.push_back(20);
 	carr.push_back(30);

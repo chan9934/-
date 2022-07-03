@@ -1,5 +1,5 @@
-#include "CArr.h"
-#include <assert.h>
+//#include "CArr.h"
+//#include <assert.h>
 
 void CArr::push_back(int _Data)
 {
@@ -9,7 +9,7 @@ void CArr::push_back(int _Data)
 		resize(m_iMaxCount * 2);
 	}
 
-	m_pInt[m_iCount++] = _Data;
+	m_pData[m_iCount++] = _Data;
 }
 
 void CArr::resize(int iResizeCount)
@@ -27,15 +27,15 @@ void CArr::resize(int iResizeCount)
 	// 2.기존 공간에 있던 데이터들을 새로 할당한 공간으로 복사시킨다.
 	for (int i = 0; i < m_iCount; ++i)
 	{
-		pNew[i] = m_pInt[i];
+		pNew[i] = m_pData[i];
 
 	}
 
 	// 3. 기존 공간은 메모리 해제
-	delete[] m_pInt;
+	delete[] m_pData;
 
 	// 4. 배열이 새로 할당한 공간을 가리키게 한다.
-	m_pInt = pNew;
+	m_pData = pNew;
 
 	// 5. MaxCount 변경점 적용
 	m_iMaxCount = iResizeCount;
@@ -43,18 +43,18 @@ void CArr::resize(int iResizeCount)
 
 int& CArr::operator[](int idx)
 {
-	return m_pInt[idx];
+	return m_pData[idx];
 }
 
 CArr::CArr()
-	:m_pInt(nullptr)
+	:m_pData(nullptr)
 	, m_iCount(0)
 	, m_iMaxCount(0)
 {
-	m_pInt = new int[2];
+	m_pData = new int[2];
 }
 
 CArr::~CArr()
 {
-	delete[] m_pInt;
+	delete[] m_pData;
 }

@@ -16,8 +16,8 @@ struct tListNode
 	}
 	tListNode(const T& _data, tListNode<T>* _pPrev, tListNode<T>* _pNexe)
 		: data(_data)
-		, pNext(_pPrev)
-		, pPrev(_pNext)
+		, pPrev(_pPrev)
+		, pNext(_pNext)
 	{
 
 	}
@@ -28,7 +28,7 @@ class CList
 {
 private:
 	tListNode<T>* m_pHead;
-	tListNodes<T>* m_pTail;
+	tListNode<T>* m_pTail;
 	int m_iCount;
 public:
 	void push_back(const T& _data);
@@ -93,7 +93,7 @@ CList<T>::CList()
 }
 
 template<typename T>
-inline CList<T>::~CList()
+CList<T>::~CList()
 {
 	tListNode<T>* pDeleteNode = m_pHead;
 

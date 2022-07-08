@@ -90,6 +90,9 @@
     <ClCompile Include="어소트락 강의 0704.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="어소트락 강의 0708.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

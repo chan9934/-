@@ -1,1 +1,2 @@
 C:\STUDY\Asso\x64\Debug\어소트락.exe
+D:\C++\Asso\x64\Debug\어소트락.exe

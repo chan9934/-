@@ -19,6 +19,9 @@
     <Filter Include="NewFilter1">
       <UniqueIdentifier>{99f7454b-343b-4e9e-bf2d-8f2e957819f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{104e89df-0469-4865-9cf4-173d860ba47f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="어소트락 강의 0619.cpp">
@@ -91,6 +94,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="어소트락 강의 0708.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CArrTemplateIterator.h">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="어소트락 강의 0710.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="어소트락 강의 0711.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

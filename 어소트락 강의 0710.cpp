@@ -7,6 +7,37 @@ using std::cin;
 using std::endl;
 using std::vector;
 
+class CTest
+{
+private:
+	int m_i;
+
+public:
+	CTest& operator = (const CTest& _other)
+	{
+		m_i = _other.m_i;
+		return *this;
+	}
+
+public:
+	CTest()
+		: m_i(0)
+	{
+	}
+	CTest(int A)
+		: m_i(A)
+	{
+	}
+
+	
+
+	CTest(const CTest& _other)
+		: m_i(_other.m_i)
+	{
+
+	}
+};
+
 int main()
 {
 	vector<int> CArr;
@@ -35,4 +66,11 @@ int main()
 
 	veciter = CArr.begin(); 
 	int k = 0;
+
+	CTest t1(100);
+
+	
+
+
+	CTest t2(t1)l;
 }

@@ -1,3 +1,1 @@
-﻿  어소트락 강의 0710.cpp
-D:\C++\Asso\CArrTemplateIterator.h(39): warning C4715: 'myVector<int>::iterator::operator*': not all control paths return a value
-  어소트락.vcxproj -> D:\C++\Asso\x64\Debug\어소트락.exe
+﻿

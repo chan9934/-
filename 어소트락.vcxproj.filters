@@ -149,5 +149,8 @@
     <ClInclude Include="List_template.h">
       <Filter>NewFilter1</Filter>
     </ClInclude>
+    <ClInclude Include="Test2.h">
+      <Filter>Test</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

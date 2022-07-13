@@ -198,4 +198,4 @@ template<typename T>
 typename C_Arr<T>::iterator C_Arr<T>::end()
 {
 	return iterator(this, m_pData, -1);
-}
+}  

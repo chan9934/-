@@ -221,6 +221,7 @@
     <ClCompile Include="어소트락 강의 0711.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="어소트락 강의 0714.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arr.h">

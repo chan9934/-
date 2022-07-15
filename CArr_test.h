@@ -28,7 +28,7 @@ CArr<T>::CArr()
 	, Count( 0 )
 	, MaxCoumt( 2 )
 {
-	IData = new<int>[2];
+	IData = new T[2];
 }
 
 template<typename T>

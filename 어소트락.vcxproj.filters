@@ -158,5 +158,8 @@
     <ClInclude Include="Test2.h">
       <Filter>Test</Filter>
     </ClInclude>
+    <ClInclude Include="CArr_Test3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -114,6 +114,9 @@
     <ClCompile Include="0717.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -162,6 +165,9 @@
       <Filter>Test</Filter>
     </ClInclude>
     <ClInclude Include="CArr_Test3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBST_Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

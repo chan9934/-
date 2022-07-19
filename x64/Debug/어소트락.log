@@ -1,6 +1,2 @@
-﻿  어소트락 강의 0714.cpp
-D:\C++\Asso\어소트락 강의 0714.cpp(29,2): warning C4834: discarding return value of function with 'nodiscard' attribute
-D:\C++\Asso\CArr_Test3.h(94,7): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
-D:\C++\Asso\CArr_Test3.h(88): message : while compiling class template member function 'void CArr<int>::Push_back(int)'
-D:\C++\Asso\어소트락 강의 0714.cpp(24): message : see reference to function template instantiation 'void CArr<int>::Push_back(int)' being compiled
-D:\C++\Asso\어소트락 강의 0714.cpp(23): message : see reference to class template instantiation 'CArr<int>' being compiled
+﻿  Source3.cpp
+  어소트락.vcxproj -> D:\C++\Asso\x64\Debug\어소트락.exe

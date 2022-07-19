@@ -163,16 +163,21 @@ int main()
 	}
 
 	CBST<int, int> bstint;
+	bstint.insert(make_bstpair(100, 0));
+	bstint.insert(make_bstpair(150, 0));
+	bstint.insert(make_bstpair(50, 0));
 
-	tPair<int, int> pair;
-	pair.first = 100;
-	bstint.insert(pair);
+	CBST<int, int>::iterator Iter = bstint.begin();
+	Iter = bstint.find(150);
 
-	pair.first = 150;
-	bstint.insert(pair);
+	map<int, int> mapInt;
+	mapInt.insert(make_pair(100, 100));
 
-	pair.first = 50;
-	bstint.insert(pair);
+	map<int, int>::iterator iter = mapInt.find(100);
+	if (iter == mapInt.end())
+	{
+
+	}
 
 	return 0;
 }
